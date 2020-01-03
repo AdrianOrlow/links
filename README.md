@@ -1,44 +1,64 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Website](https://img.shields.io/website?url=https%3A%2F%2Flinks.orlow.me)
+![GitHub](https://img.shields.io/github/license/AdrianOrlow/links)
+![David](https://img.shields.io/david/AdrianOrlow/files)
+[![Code Style](https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript)
+[![CodeFactor](https://www.codefactor.io/repository/github/adrianorlow/links/badge)](https://www.codefactor.io/repository/github/adrianorlow/links)
 
-## Available Scripts
+# Links
 
-In the project directory, you can run:
+My personal simple links shortener. Made with React, Styled Components, Formik and a little bit of Ramda.
 
-### `yarn start`
+[Links API](https://github.com/AdrianOrlow/links-api)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![thumbnail](https://user-images.githubusercontent.com/10941338/71741122-5076fc00-2e5e-11ea-9ee4-253e3ae56654.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Getting started
 
-### `yarn test`
+Get all the dependencies loaded via
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+yarn install
+```
 
-### `yarn build`
+And run the server with
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+yarn start
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Deployment (Dokku)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create app container
 
-### `yarn eject`
+```
+dokku apps:create app_name
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Create app container
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+dokku apps:create app_name
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+set CRA buildpack for your app container
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+dokku buildpacks:set app_name https://github.com/mars/create-react-app
+```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+add Dokku remote repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+git remote add dokku dokku@server_ip:app_name
+```
+
+and finally push code to the repo
+
+```
+git push dokku master
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)

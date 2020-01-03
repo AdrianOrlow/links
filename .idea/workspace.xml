@@ -1,8 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b769064a-d47c-419b-b2a3-a5d77cf2f09b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/links.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/vectors/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Footer/FooterStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Footer/FooterView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Footer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Hero/HeroStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Hero/HeroView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Hero/NewLink/NewLinkApiCalls.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Hero/NewLink/NewLinkStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Hero/NewLink/NewLinkTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Hero/NewLink/NewLinkView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Hero/NewLink/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Hero/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/HomeView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/List/Link/LinkStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/List/Link/LinkView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/List/Link/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/List/ListApiCalls.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/List/ListStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/List/ListView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/List/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login/LoginContainer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login/LoginStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login/LoginView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NotFound/NotFoundStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NotFound/NotFoundView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NotFound/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/Api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/Breakpoints.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/Colors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/Routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ButtonStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/FormStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Loading/LoadingStyle.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Loading/LoadingView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/Loading/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getPath.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/parseDate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VqigUMclcH04RtIE1Nz3uMkKbA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="E:\Projekty\GitHub\links\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projekty\GitHub\links\src\components\Home\Hero" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b769064a-d47c-419b-b2a3-a5d77cf2f09b" name="Default Changelist" comment="" />
+      <created>1577987136822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577987136822</updated>
+      <workItem from="1577987138496" duration="5160000" />
+      <workItem from="1578045217620" duration="20154000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

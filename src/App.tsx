@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch as RouterSwitch,
+  Route as RouterRoute,
+} from 'react-router-dom';
+import * as R from 'ramda';
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+import Header from 'components/Header';
+import Routes from 'constants/Routes';
+import { RouteType } from 'constants/types';
+
+const App: React.FC = () => (
+  <Router>
+    <div>
+      <Header />
+      <Switch />
     </div>
+  </Router>
+);
+
+const Switch: React.FC = () => {
+  const routerRoute = (route: RouteType): React.ReactElement => (
+    // eslint-disable-next-line react/jsx-props-no-spreading
+    <RouterRoute key={route.path} {...route} />
   );
-}
+  const routes = R.map(routerRoute, Routes);
+
+  return (
+    <RouterSwitch>
+      {routes}
+    </RouterSwitch>
+  );
+};
 
 export default App;
